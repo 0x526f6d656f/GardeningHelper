@@ -81,7 +81,7 @@ EndFunc
 Func Plant1BeanCombo()
     CenterAndFocusGame()
     $gamePos = WinGetPos($game)
-    $rand = Random(0, UBound($_1BeanCombos), 1)
+    $rand = Random(0, UBound($_1BeanCombos) - 1, 1)
     $y = 420
 
     ; Click "Plant Flower"
@@ -101,7 +101,7 @@ EndFunc
 Func Plant2BeanCombo()
     CenterAndFocusGame()
     $gamePos = WinGetPos($game)
-    $rand = Random(0, UBound($_2BeanCombos), 1)
+    $rand = Random(0, UBound($_2BeanCombos) - 1, 1)
     $y = 420
 
     ; Click "Plant Flower"
@@ -123,7 +123,7 @@ EndFunc
 Func Plant3BeanCombo()
     CenterAndFocusGame()
     $gamePos = WinGetPos($game)
-    $rand = Random(0, UBound($_3BeanCombos), 1)
+    $rand = Random(0, UBound($_3BeanCombos) - 1, 1)
     $y = 420
 
     ; Click "Plant Flower"
@@ -145,7 +145,7 @@ EndFunc
 Func Plant4BeanCombo()
     CenterAndFocusGame()
     $gamePos = WinGetPos($game)
-    $rand = Random(0, UBound($_4BeanCombos), 1)
+    $rand = Random(0, UBound($_4BeanCombos) - 1, 1)
     $y = 420
 
     ; Click "Plant Flower"
@@ -167,7 +167,7 @@ EndFunc
 Func Plant5BeanCombo()
     CenterAndFocusGame()
     $gamePos = WinGetPos($game)
-    $rand = Random(0, UBound($_5BeanCombos), 1)
+    $rand = Random(0, UBound($_5BeanCombos) - 1, 1)
     $y = 420
 
     ; Click "Plant Flower"
@@ -189,7 +189,7 @@ EndFunc
 Func Plant6BeanCombo()
     CenterAndFocusGame()
     $gamePos = WinGetPos($game)
-    $rand = Random(0, UBound($_6BeanCombos), 1)
+    $rand = Random(0, UBound($_6BeanCombos) - 1, 1)
     $y = 420
 
     ; Click "Plant Flower"
@@ -211,7 +211,7 @@ EndFunc
 Func Plant7BeanCombo()
     CenterAndFocusGame()
     $gamePos = WinGetPos($game)
-    $rand = Random(0, UBound($_7BeanCombos), 1)
+    $rand = Random(0, UBound($_7BeanCombos) - 1, 1)
     $y = 420
 
     ; Click "Plant Flower"
@@ -233,7 +233,7 @@ EndFunc
 Func Plant8BeanCombo()
     CenterAndFocusGame()
     $gamePos = WinGetPos($game)
-    $rand = Random(0, UBound($_8BeanCombos), 1)
+    $rand = Random(0, UBound($_8BeanCombos) - 1, 1)
     $y = 420
 
     ; Click "Plant Flower"
